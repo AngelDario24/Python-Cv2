@@ -4,7 +4,7 @@ tess.pytesseract.tesseract_cmd=r'C:\Program Files\Tesseract-OCR\tesseract.exe' #
 
 #Ruta de imagen
 
-Ruta = cv2.imread('C:\\Users\\Tony\\Desktop\\Prueba\\texto2.jpg')
+Ruta = cv2.imread('Texto.jpeg')
 
 Texto = tess.image_to_string(Ruta) #conversion para mostrar el texto de la imagen
 
